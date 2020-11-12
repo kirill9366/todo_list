@@ -17,8 +17,10 @@ function update_list(){
 		let id = todo_list[todo_id]["id"]
 		todo_list_text +=
 			`<div class="todo_record" id="${id}">
-				<button class="todo_record__del" onclick="del_todo_record(${id})">Delete</button>
-				<button class="todo_record__edit" onclick="edit_todo_record(${id})">Edit</button>
+				<div class="todo_record__buttons">
+					<button class="todo_record__del" onclick="del_todo_record(${id})">Delete</button>
+					<button class="todo_record__edit" onclick="edit_todo_record(${id})">Edit</button>
+				</div>
 				<p class="todo_record__text">${todo_list[todo_id]["text"]}</p>
 			</div>`;
 		};

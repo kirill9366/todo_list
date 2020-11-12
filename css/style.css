@@ -116,10 +116,8 @@ h1{
         margin-top: 5px;
     }
     .todo_record{
-        height: 65px;
-    }
-    .todo_record{
         display: block;
+        height: 65px;
     }
     .todo_record__buttons{
         justify-content: space-between;
